@@ -53,6 +53,7 @@ body{
     margin: 0;
 }
 
+
 .textfield{ 
     display: flex;
     flex-direction: column;
@@ -78,5 +79,15 @@ body{
 .textfield label{ 
    color: antiquewhite;
    margin-bottom: 10px;
+   
     
 }
+
+#senha::placeholder {
+    padding-left: 10px;
+}
+
+#usuario::placeholder {
+    padding-left: 10px;
+}
+
